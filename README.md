@@ -30,7 +30,7 @@ You can find all these files in data/ under the hackathon directory.
 - test.csv - Test set (113k events)
 - sample_submission.csv - Submission file example
 
-Data dictionary
+## Data dictionary
 - id - a random id unique to an event
 - user_address - Source of the potential transaction. In the blockchain, this is the location of your coins. Abbreviated to the first 4 hexadecimal characters
 - user_balance_usd - USD balance available for trading in exchange A
@@ -43,3 +43,5 @@ Data dictionary
 - exchange_b_volatility - Measure of how much the price is changing in the past 30 seconds in exchange B
 - anonymous - not much is known about this variable, but it might be useful
 
+## Evaluation criteria for your model
+Evaluation Metric - Area Under Receiver Operating Characteristic Curve (AUROC).
