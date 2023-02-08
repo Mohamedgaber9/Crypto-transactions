@@ -29,3 +29,17 @@ You can find all these files in data/ under the hackathon directory.
 - train.csv - Training set (338k events)
 - test.csv - Test set (113k events)
 - sample_submission.csv - Submission file example
+
+Data dictionary
+- id - a random id unique to an event
+- user_address - Source of the potential transaction. In the blockchain, this is the location of your coins. Abbreviated to the first 4 hexadecimal characters
+- user_balance_usd - USD balance available for trading in exchange A
+- user_balance_coin_a - Balance of coin A available for trading in exchange A
+- user_historical_transactions_10s - Number of transactions that occurred in the past 10 seconds in this address
+- user_historical_transactions_30s - Number of transactions that occurred in the past 30 seconds in this address
+- exchange_a_price - Price of coin A (in USD) in exchange A
+- exchange_b_price - Price of coin A (in USD) in exchange B
+- exchange_a_volatility - Measure of how much the price is changing in the past 30 seconds in exchange A
+- exchange_b_volatility - Measure of how much the price is changing in the past 30 seconds in exchange B
+- anonymous - not much is known about this variable, but it might be useful
+
