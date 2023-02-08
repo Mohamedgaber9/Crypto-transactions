@@ -1,5 +1,5 @@
 # Crypto-transactions
-Overview\n
+## Overview
 Every day millions of crypto transactions occur across all blockchains (e.g., Bitcoin, Ethereum). These transactions are public, meaning that everyone can see them. And they can be analysed to understand the behaviour of each user.
 
 We will focus on one of these users and will aim to model their behaviour. The user in question is running a trading algorithm that generates transactions aimed at profiting from small discrepancies in prices. For example, if Bitcoin is being priced at $19,500 in exchange A and $19,600 in exchange B, the algorithm will trigger a transaction where Bitcoin is bought in exchange A and another where it is sold in exchange B for a profit of $100. These transactions happen at the same time and thus can be considered, for all intents and purposes, a single transaction.
